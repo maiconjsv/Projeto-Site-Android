@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'androidtext';
+    src: url(../fonts/idroid.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: #20f171;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #20f171, #055c26);
+    padding-bottom: 10px;
+}
+
+#h1header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 1px 2px 2px black;
+    padding-top: 20px;
+}
+#pheader{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 25px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+nav{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.headerlink{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+      
+}
+.headerlink:hover{
+  background-color: rgba(233, 224, 224, 0.171);  
+}
+
+main{
+    background-color: white;
+    margin: 0px 10px 0px 10px;
+    padding: 10px;
+}
+
+.android_text{
+    font-family: "androidtext";
+    color: #17492b;
+
+}
+
+#h1_android_text{
+    text-align: left;
+}
+
+p{
+    text-align: justify;
+}
+
+picture img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.h2_android{
+    background-image: linear-gradient(to right , #2add6f, 20%, #fcfcfc);
+    padding: 2px;
+}
+
+.green_text_span{
+    color: #063b1a;
+    
+}
+
+#bugdroid{
+    margin: auto;
+    max-width: 100%;
+    display: block;
+    
+}
+
+
+
+#video_youtube{
+    background-color: #063b1a;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px 20px 0px;
+    margin: 0px;
+}
+
+#final_section{
+    background-color: #b9dfc8;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: block;
+}
+
+#final_section h2{
+    color: white;
+    background-color: #2bc96a;
+    text-shadow: 2px 1px black;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+
+}
+
+#final_section p{
+    padding: 10px;
+}
+
+
+#listas{
+    display: flex;
+    justify-content: space-between center;
+    gap: 20px;
+}
+
+#listas ul{
+    list-style-type: disc;
+    padding: 30px;
+    margin: 0;
+}
+
+footer{
+    background-color: #063b1a;
+    display: block;
+}
+
+#small_footer{
+    text-align: center;
+    display: block;
+    color: white;
+    padding: 5px;
+}
+
+#cursoemvideo{
+    color: rgb(138, 182, 223);
+}
